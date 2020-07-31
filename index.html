@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Decimal to Binary</title>
+</head>
+<body>
+  <section class="calculator">
+    <h1>Decimal to Binary Calculator</h1>
+    <h3 class="subtitle">Convert decimal to binary</h3>
+    <div class="field">
+      <p>Enter the decimal number here: </p>
+      <input type="text" class="decimal-field" onchange="convert()">
+    </div>
+    <div class="field">
+      <p>Binary number: </p>
+      <input type="text" class="binary-field" readonly>
+    </div>
+    <input type="button" value="DALE" onclick="convert()">
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

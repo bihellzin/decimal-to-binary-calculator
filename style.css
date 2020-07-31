@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 500px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+}
+
+.calculator h3 {
+  margin-bottom: 40px;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 20px;
+}
