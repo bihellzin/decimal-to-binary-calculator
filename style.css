@@ -47,3 +47,13 @@ p {
 input {
   padding: 10px;
 }
+
+@media (max-width: 425px){
+  html {
+    font-size: 70%;
+  }
+
+  input {
+    width: 100px;
+  }
+}
